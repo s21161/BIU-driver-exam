@@ -1,0 +1,233 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "Ile kół ma samochód?",
+      "options": [
+        { "option": "A", "value": "4" },
+        { "option": "B", "value": "3" },
+        { "option": "C", "value": "2" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "content": "Samochód trzydrzwiowy ma:",
+      "options": [
+        {
+          "option": "A",
+          "value": "Jedną parę drzwi po bokach i bagażnik z oknem"
+        },
+        {
+          "option": "B",
+          "value": "Jedną parę drzwi po bokach i bagażnik bez okna"
+        },
+        {
+          "option": "C",
+          "value": "Jedną parę drzwi po prawej i dwie pary drzwi po lewej"
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "content": "Czy trzeba udzielić pierwszej pomocy podczas wypadku?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Tak"
+    },
+    {
+      "id": 4,
+      "content": "Czy trzeba udzielić pierwszej pomocy podczas kolizji?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Nie"
+    },
+    {
+      "id": 5,
+      "content": "Jaką odległość należy zachować między jadącymi kolumnami samochodów ciężarowych?",
+      "options": [
+        {
+          "option": "A",
+          "value": "Nie mniejszą niż 800 metrów"
+        },
+        {
+          "option": "B",
+          "value": "Nie mniejszą niż 500 metrów"
+        },
+        {
+          "option": "C",
+          "value": "Nie mniejszą niż 200 metrów"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "content": "Kierujesz samochodem. Który z wymienionych czynników jesteś zobowiązany uwzględnić, aby zachować bezpieczny odstęp od poprzedzającego pojazdu?",
+      "options": [
+        {
+          "option": "A",
+          "value": "Prędkość pojazdów"
+        },
+        {
+          "option": "B",
+          "value": "Moc silnika"
+        },
+        {
+          "option": "C",
+          "value": "Szerokość pojazdów"
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "content": "Co to jest droga?",
+      "options": [
+        {
+          "option": "A",
+          "value": "Asfalttowa nawierzchnia"
+        },
+        {
+          "option": "B",
+          "value": "Asfalttowa nawierzchnia z chodnikiem"
+        },
+        {
+          "option": "C",
+          "value": "Asfalttowa nawierzchnia z chodnikiem i poboczem"
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "content": "Czy posiadając prawojazdy kat. B możemy jeździć motocyklem o pojemności 500?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Nie"
+    },
+    {
+      "id": 9,
+      "content": "Czy posiadając prawojazdy kat. B możemy jeździć motocyklem o pojemności 125?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Tak"
+    },
+    {
+      "id": 10,
+      "content": "Ile decybeli może mieć tłumik samochodu?",
+      "options": [
+        { "option": "A", "value": "5 dB" },
+        { "option": "B", "value": "13 dB" },
+        { "option": "C", "value": "20 dB" }
+      ],
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "content": "Przed jakim znakiem kierowca pojazdu musi sie zatrzmyać?",
+      "options": [
+        { "option": "A", "value": "Uwaga zwierząta na drodze" },
+        { "option": "B", "value": "Strefa zamieszkania" },
+        { "option": "C", "value": "STOP" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "content": "Od jakiego wzrostu można jeździć bez fotelika?",
+      "options": [
+        { "option": "A", "value": "1.20m" },
+        { "option": "B", "value": "1.30m" },
+        { "option": "C", "value": "1.50m" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "content": "Co oznacza swiecąca lapka w kształcie silnika?",
+      "options": [
+        { "option": "A", "value": "Nic" },
+        { "option": "B", "value": "Check Engine" },
+        { "option": "C", "value": "Check Oil" }
+      ],
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "content": "Czy pod wpływem alkoholu można prowadzić pojazd?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Nie"
+    },
+    {
+      "id": 15,
+      "content": "Czy wjeżdżając na rondo trzeba włączyć kierunkowskaz?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Tak"
+    },
+    {
+      "id": 16,
+      "content": "Pod wpływem jakich narkotyków możan prowadzić samochód?",
+      "options": [
+        { "option": "A", "value": "Marichuana" },
+        { "option": "B", "value": "Pentedron" },
+        { "option": "C", "value": "Po żadnych" }
+      ],
+      "answer": "C"
+    },
+
+    {
+      "id": 17,
+      "content": "Czy autostrada to droga szybkiego ruchu?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Nie"
+    },
+    {
+      "id": 18,
+      "content": "Czy rondo to skrzyżowanie?",
+      "options": [
+        { "option": "Tak", "value": "Tak" },
+        { "option": "Nie", "value": "Nie" }
+      ],
+      "answer": "Tak"
+    },
+    {
+      "id": 19,
+      "content": "Czy można rozamwiać przez telefon podczas jazdy samochodem?",
+      "options": [
+        { "option": "A", "value": "Moża" },
+        { "option": "B", "value": "Nie można" },
+        { "option": "C", "value": "Można, ale przez zestaw głośnomówiący" }
+      ],
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "content": "Czy hamowanie pulsujące jest poprawną techniką chamowania?",
+      "options": [
+        { "option": "A", "value": "Tak" },
+        { "option": "B", "value": "Nie" },
+        { "option": "C", "value": "To zależy od sytuacji" }
+      ],
+      "answer": "C"
+    }
+  ]
+}
