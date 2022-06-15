@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --black: #2c2b2b;
+  --white: #f2f2f2;
+  --blue: #4b89bf;
+  --red: #cf2942;
+  --green: #5fba46;
+
+  /* Font Sizes */
+  --s: 0.75rem;
+  --m: 1.25rem;
+  --l: 2rem;
+  --xl: 3rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
