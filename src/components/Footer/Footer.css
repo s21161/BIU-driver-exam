@@ -1,0 +1,5 @@
+.footer {
+  padding: 4%;
+  background: var(--blue);
+  color: var(--white);
+}

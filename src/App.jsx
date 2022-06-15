@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { routes } from "./routes";
 
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 import HomePage from "./pages/HomePage";
 import ExamPage from "./pages/ExamPage";
@@ -19,6 +20,7 @@ export default function App() {
         <Route path={routes.LEARN} element={<LearnPage />} />
         <Route path={routes.EDIT} element={<EditPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
