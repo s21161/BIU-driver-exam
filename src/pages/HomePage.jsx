@@ -1,7 +1,5 @@
-import React from 'react'
+import HomeNavigation from "../components/HomeNavigation/HomeNavigation";
 
 export default function HomePage() {
-  return (
-    <div>HomePage</div>
-  )
+  return <HomeNavigation />;
 }
