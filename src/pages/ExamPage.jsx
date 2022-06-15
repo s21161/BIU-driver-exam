@@ -1,3 +1,11 @@
+import ExamContextProvider from "../contexts/ExamContext/ExamContextProvider";
+
+import Exam from "../components/Exam/Exam";
+
 export default function ExamPage() {
-  return <div>ExamPage</div>;
+  return (
+    <ExamContextProvider>
+      <Exam />
+    </ExamContextProvider>
+  );
 }

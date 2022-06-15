@@ -1,0 +1,24 @@
+.end-exam-view__header {
+  font-size: var(--xl);
+}
+
+.end-exam-view__answers {
+  margin: 5% 0;
+  font-size: var(--m);
+}
+
+.end-exam-view__button {
+  margin-top: 5%;
+}
+
+.exam-result {
+  font-size: var(--l);
+}
+
+.exam-passed {
+  color: var(--green);
+}
+
+.exam-failed {
+  color: var(--red);
+}

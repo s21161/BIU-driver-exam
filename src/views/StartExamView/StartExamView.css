@@ -1,0 +1,11 @@
+.start-exam-view__header {
+  font-size: var(--xl);
+}
+
+.start-exam-view__description {
+  font-style: italic;
+}
+
+.start-exam-view__start-button {
+  margin-top: 8%;
+}

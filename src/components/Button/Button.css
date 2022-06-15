@@ -1,0 +1,9 @@
+.button {
+  appearance: none;
+  border: none;
+  font-family: inherit;
+  background: var(--blue);
+  color: var(--white);
+  padding: 2%;
+  font-size: var(--l);
+}

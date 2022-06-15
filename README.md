@@ -4,15 +4,15 @@
 
 Aplikacja powinna mieć trzy tryby:
 
-- [ ] egzaminu
+- [x] egzaminu
 - [ ] nauki
 - [ ] edycji
 
 ### Tryb Egzaminy
 
-- [ ] uczestnik losuje 15 pytań pokazywanych po kolei
-- [ ] pod koniec uczestnikowi pokazywany jest komunikat o zaliczeniu lub oblaniu (3 błędne odpowiedzi i więcej = oblanie egzaminu)
-- [ ] w tym trybie uczestnik nie wie, jakie były prawidłowe odpowiedzi i w których pytaniach wybrał złe
+- [x] uczestnik losuje 15 pytań pokazywanych po kolei
+- [x] pod koniec uczestnikowi pokazywany jest komunikat o zaliczeniu lub oblaniu (3 błędne odpowiedzi i więcej = oblanie egzaminu)
+- [x] w tym trybie uczestnik nie wie, jakie były prawidłowe odpowiedzi i w których pytaniach wybrał złe
 
 ### Tryb Nauki
 

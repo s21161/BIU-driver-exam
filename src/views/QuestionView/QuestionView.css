@@ -1,0 +1,13 @@
+.question-view__header {
+  font-size: var(--l);
+}
+
+.question-view__content {
+  font-size: var(--m);
+}
+
+.question-view__answers {
+  margin: 3% 0 5% 0;
+  font-size: var(--m);
+  line-height: 1.4;
+}
