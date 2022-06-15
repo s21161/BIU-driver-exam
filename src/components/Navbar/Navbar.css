@@ -1,0 +1,9 @@
+.navbar {
+  padding: 1%;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.navbar__header {
+  font-size: var(--l);
+}

@@ -1,9 +1,24 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { routes } from "./routes";
+
+import Navbar from "./components/Navbar/Navbar";
+
+import HomePage from "./pages/HomePage";
+import ExamPage from "./pages/ExamPage";
+import LearnPage from "./pages/LearnPage";
+import EditPage from "./pages/EditPage";
+
 export default function App() {
   return (
-    <div className="App">
-      <h1>Egzamin Na Prawo Jazdy</h1>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path={routes.HOME} element={<HomePage />} />
+        <Route path={routes.EXAM} element={<ExamPage />} />
+        <Route path={routes.LEARN} element={<LearnPage />} />
+        <Route path={routes.EDIT} element={<EditPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-
