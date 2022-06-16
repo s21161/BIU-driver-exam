@@ -1,8 +1,6 @@
 export default function examReducer(state, action) {
   switch (action.type) {
     case "START_EXAM":
-
-    
       return {
         ...state,
         startExam: true,
@@ -17,19 +15,15 @@ export default function examReducer(state, action) {
     case "HANDLE_ANSWER_INPUT":
       return {
         ...state,
-        input: action.input
+        input: action.input,
       };
     case "HANDLE_CORRECT_ANSWER":
-      console.log("HANDLE_CORRECT_ANSWER");
-
       return {
         ...state,
         correctAnswers: state.correctAnswers + 1,
         questionNr: state.questionNr + 1,
       };
     case "HANDLE_INCORRECT_ANSWER":
-      console.log("HANDLE_INCORRECT_ANSWER");
-
       return {
         ...state,
         incorrectAnswers: state.incorrectAnswers + 1,

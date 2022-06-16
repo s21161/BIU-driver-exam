@@ -1,3 +1,11 @@
+import LearnContextProvider from "../contexts/LearnContext/LearnContextProvider";
+
+import Learn from "../components/Learn/Learn";
+
 export default function LearnPage() {
-  return <div>LearnPage</div>;
+  return (
+    <LearnContextProvider>
+      <Learn />
+    </LearnContextProvider>
+  );
 }

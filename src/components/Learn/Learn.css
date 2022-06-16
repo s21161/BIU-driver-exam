@@ -1,0 +1,33 @@
+.learn {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.learn__header {
+  font-size: var(--l);
+}
+
+.learn__content {
+  font-size: var(--m);
+}
+
+.learn__answers {
+  margin: 3% 0 5% 0;
+  font-size: var(--m);
+  line-height: 1.4;
+}
+
+.is-correct-answer {
+  font-size: var(--l);
+}
+
+.correct {
+  color: var(--green)
+}
+
+.incorrect {
+  color: var(--red)
+}

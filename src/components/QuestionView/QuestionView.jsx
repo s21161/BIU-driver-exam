@@ -1,6 +1,7 @@
 import "./QuestionView.css";
 
 import Button from "../../components/Button/Button";
+import QuestionOption from "../QuestionOption/QuestionOption";
 
 export default function QuestionView({
   examQuestions,
@@ -8,9 +9,6 @@ export default function QuestionView({
   input,
   examDispatch,
 }) {
-  const isOptionDiferentThanYesNo = (option) =>
-    option !== "Tak" && option !== "Nie";
-
   const handleNextQuestion = () => {
     const lastQuestionIndex = 14;
 
@@ -33,25 +31,18 @@ export default function QuestionView({
       </p>
       <ul className="question-view__answers">
         {examQuestions[questionNr].options.map(({ option, value }) => (
-          <li key={`${option}-${value}`}>
-            <label>
-              <input
-                name={`question-nr-${questionNr + 1}`}
-                type="radio"
-                value={value}
-                onChange={() =>
-                  examDispatch({
-                    type: "HANDLE_ANSWER_INPUT",
-                    input: option,
-                  })
-                }
-              />
-              {isOptionDiferentThanYesNo(option) && (
-                <span>{option}:&nbsp;</span>
-              )}
-              <span>{value}</span>
-            </label>
-          </li>
+          <QuestionOption
+            key={`${option}-${value}`}
+            name={`question-nr-${questionNr + 1}`}
+            option={option}
+            value={value}
+            dispatch={() =>
+              examDispatch({
+                type: "HANDLE_ANSWER_INPUT",
+                input: option,
+              })
+            }
+          />
         ))}
       </ul>
       <Button label="Następne Pytanie" onClick={handleNextQuestion} />

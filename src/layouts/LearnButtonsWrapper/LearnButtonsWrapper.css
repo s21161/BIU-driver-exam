@@ -1,0 +1,12 @@
+.learn-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-buttons-wrapper > * {
+  margin-bottom: 15%;
+}
+
+.learn-buttons-wrapper > *:last-child {
+  margin-bottom: 0;
+}

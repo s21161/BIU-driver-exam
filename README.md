@@ -5,7 +5,7 @@
 Aplikacja powinna mieć trzy tryby:
 
 - [x] egzaminu
-- [ ] nauki
+- [x] nauki
 - [ ] edycji
 
 ### Tryb Egzaminy
@@ -16,10 +16,10 @@ Aplikacja powinna mieć trzy tryby:
 
 ### Tryb Nauki
 
-- [ ] uczestnik losuje kolejne pytania
-- [ ] po każdej z odpowiedzi jest pokazywane czy wybrał poprawnie
-- [ ] nie ma tu limitu pytań
-- [ ] kolejne pytania są losowane dopóki uczestnik nie użyje przycisku "Zakończ"
+- [x] uczestnik losuje kolejne pytania
+- [x] po każdej z odpowiedzi jest pokazywane czy wybrał poprawnie
+- [x] nie ma tu limitu pytań
+- [x] kolejne pytania są losowane dopóki uczestnik nie użyje przycisku "Zakończ"
 
 ### Tryb Edycji
 
