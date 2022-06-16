@@ -6,9 +6,9 @@ import { ExamContext } from "../../contexts/ExamContext/ExamContext";
 
 import useExamQuestions from "../../hooks/useExamQuestions";
 
-import StartExamView from "../../views/StartExamView/StartExamView";
-import QuestionView from "../../views/QuestionView/QuestionView";
-import EndExamView from "../../views/EndExamView/EndExamView";
+import StartExamView from "../StartExamView/StartExamView";
+import QuestionView from "../QuestionView/QuestionView";
+import EndExamView from "../EndExamView/EndExamView";
 
 export default function Exam() {
   const examQuestions = useExamQuestions();
