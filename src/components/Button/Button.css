@@ -6,4 +6,5 @@
   color: var(--white);
   padding: 2%;
   font-size: var(--l);
+  cursor: pointer;
 }

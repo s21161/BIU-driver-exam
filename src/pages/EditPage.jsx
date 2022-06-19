@@ -1,3 +1,11 @@
+import EditContextProvider from "../contexts/EditContext/EditContextProvider";
+
+import Edit from "../components/Edit/Edit";
+
 export default function EditPage() {
-  return <div>EditPage</div>;
+  return (
+    <EditContextProvider>
+      <Edit />
+    </EditContextProvider>
+  );
 }

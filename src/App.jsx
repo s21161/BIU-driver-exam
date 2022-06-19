@@ -13,6 +13,7 @@ import HomePage from "./pages/HomePage";
 import ExamPage from "./pages/ExamPage";
 import LearnPage from "./pages/LearnPage";
 import EditPage from "./pages/EditPage";
+import EditQuestionPage from "./pages/edit/EditQuestionPage";
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
             <Route path={routes.EXAM} element={<ExamPage />} />
             <Route path={routes.LEARN} element={<LearnPage />} />
             <Route path={routes.EDIT} element={<EditPage />} />
+            <Route path={routes.EDIT_QUESTION} element={<EditQuestionPage />} />
             <Route
               path="*"
               element={<Navigate to={routes.HOME} replace={true} />}

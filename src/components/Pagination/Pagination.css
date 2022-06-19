@@ -1,0 +1,42 @@
+.pagination {
+  margin-top: 5%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--l);
+}
+
+.pagination > button:first-child {
+  margin-right: 3%;
+}
+
+.pagination > button:last-child {
+  margin-left: 3%;
+}
+
+.pagination__button {
+  appearance: none;
+  border: none;
+  background: inherit;
+  color: inherit;
+  font-size: var(--xl);
+  cursor: pointer;
+}
+
+.pagination__button:hover {
+  color: var(--blue);
+}
+
+.pagination__button:disabled {
+  color: var(--gray);
+  cursor: auto;
+}
+
+.pagination__counter {
+  margin: 1%;
+}
+
+.pagination__counter--slash {
+  color: var(--blue);
+}

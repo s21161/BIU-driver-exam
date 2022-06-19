@@ -1,0 +1,33 @@
+.form-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.form-layout > * {
+  margin-bottom: 3%;
+}
+
+.form-layout > *:first-child {
+  margin-bottom: 6%;
+}
+
+.form-layout > *:last-child {
+  margin-bottom: 0;
+}
+
+.form-layout__header {
+  font-size: var(--xl);
+}
+
+.form-layout-submit {
+  appearance: none;
+  padding: 2%;
+  border: none;
+  font-family: inherit;
+  background: var(--blue);
+  color: var(--white);
+  font-size: var(--l);
+}

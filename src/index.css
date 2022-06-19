@@ -9,6 +9,7 @@
 :root {
   /* Colors */
   --black: #2c2b2b;
+  --gray: #777575;
   --white: #f2f2f2;
   --blue: #4b89bf;
   --red: #cf2942;
@@ -40,4 +41,10 @@ a {
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+input,
+select,
+textarea {
+  outline: none;
 }

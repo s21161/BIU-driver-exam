@@ -1,0 +1,21 @@
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-textarea > * {
+  margin-bottom: 1%;
+}
+
+.form-textarea > *:last-child {
+  margin-bottom: 0;
+}
+
+.form-textarea__field {
+  border: 5px solid var(--blue);
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: var(--m);
+  resize: none;
+}

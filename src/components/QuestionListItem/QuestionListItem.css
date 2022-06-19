@@ -1,0 +1,14 @@
+.questions-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.questions-list-item--content {
+  width: 80%;
+}
+
+.questions-list-item--delete-question {
+  padding: 1%;
+  height: fit-content;
+  font-size: var(--s);
+}
