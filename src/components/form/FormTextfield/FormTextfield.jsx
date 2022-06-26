@@ -1,9 +1,12 @@
 import "./FormTextfield.css";
 
+import FormValidationMessage from "../FormValidationMessage/FormValidationMessage";
+
 export default function FormTextfield({
   label,
   register,
   defaultValue,
+  onChange,
   style,
   errors,
 }) {
@@ -15,8 +18,9 @@ export default function FormTextfield({
         className="form-textfield__input"
         {...register}
         defaultValue={defaultValue}
+        onChange={onChange}
       />
-      {errors && <p>Pole Wymagane!</p>}
+      {errors && <FormValidationMessage />}
     </label>
   );
 }

@@ -27,7 +27,7 @@ Aplikacja powinna mieć trzy tryby:
     - [x] może podejrzeć treść pytania
     - [x] przejść do formularza edycji
 - [x] obok każdej pozycji listy jest link do usunięcia pytania
-- [ ] nad listą jest przycisk dodawania nowego pytania, który powoduje pokazanie formularza nowego pytania
-- [ ] każde pytanie mieć do wybrania jedną z trzech odpowiedzi ALBO wybór tak/nie
-- [ ] ponadto każde pytanie ma przypisaną treść 
+- [x] nad listą jest przycisk dodawania nowego pytania, który powoduje pokazanie formularza nowego pytania
+- [x] każde pytanie mieć do wybrania jedną z trzech odpowiedzi ALBO wybór tak/nie
+- [x] ponadto każde pytanie ma przypisaną treść 
 - [ ] może mieć przypisaną ilustrację

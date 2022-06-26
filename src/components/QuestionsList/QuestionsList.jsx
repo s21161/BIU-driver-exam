@@ -1,6 +1,10 @@
 import React from "react";
 
+import { useNavigate } from "react-router-dom";
+
 import "./QuestionsList.css";
+
+import { routes } from "../../routes";
 
 import { QuestionContext } from "../../contexts/QuestionsContext/QuestionContext";
 import { EditContext } from "../../contexts/EditContext/EditContext";
@@ -10,10 +14,12 @@ import usePagination from "../../hooks/usePagination";
 import Pagination from "../Pagination/Pagination";
 import Button from "../Button/Button";
 import QuestionListItem from "../QuestionListItem/QuestionListItem";
-
+ 
 export default function QuestionsList() {
   const { questionState } = React.useContext(QuestionContext);
   const { editState, editDispatch } = React.useContext(EditContext);
+
+  let navigate = useNavigate();
 
   const [firstPageItem, lastPageItem] = usePagination(
     editState.itemsPerPage,
@@ -35,6 +41,7 @@ export default function QuestionsList() {
         <Button
           label="Dodaj Pytanie"
           className="questions-list__add-question"
+          onClick={() => navigate(routes.ADD_QUESTION)}
         />
       </article>
       {questionState.length !== 0 ? (

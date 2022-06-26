@@ -1,6 +1,7 @@
+import useOptionDiferentThanYesNo from "../../hooks/useOptionDiferentThanYesNo";
+
 export default function QuestionOption({ name, option, value, dispatch }) {
-  const isOptionDiferentThanYesNo = (option) =>
-    option !== "Tak" && option !== "Nie";
+  const { isOptionDiferentThanYesNo } = useOptionDiferentThanYesNo();
 
   return (
     <li>

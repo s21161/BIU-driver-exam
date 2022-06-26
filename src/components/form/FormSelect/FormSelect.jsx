@@ -1,4 +1,10 @@
+import React from "react";
+
 import "./FormSelect.css";
+
+import useOptionDiferentThanYesNo from "../../../hooks/useOptionDiferentThanYesNo";
+
+import FormValidationMessage from "../FormValidationMessage/FormValidationMessage";
 
 export default function FormSelect({
   label,
@@ -7,20 +13,24 @@ export default function FormSelect({
   options,
   answer,
   errors,
+  defaultValue,
 }) {
-  const isOptionDiferentThanYesNo = (option) =>
-    option !== "Tak" && option !== "Nie";
+  const { isOptionDiferentThanYesNo } = useOptionDiferentThanYesNo();
 
   return (
     <label className="form-select">
       <span>{label}</span>
-      <select className="form-select__field" defaultValue={""} {...register}>
+      <select
+        className="form-select__field"
+        defaultValue={defaultValue ? defaultValue : ""}
+        {...register}
+      >
         <option className="form-select__field--option" value={""} disabled>
           {placeholder}
         </option>
-        {options.map(({ option, value }) => (
+        {options.map(({ option, value }, index) => (
           <option
-            key={option}
+            key={`${option}-${index}`}
             className="form-select__field--option"
             value={option}
           >
@@ -29,8 +39,8 @@ export default function FormSelect({
           </option>
         ))}
       </select>
-      <p>Correct Answer: {answer}</p>
-      {errors && <p>Pole Wymagane!</p>}
+      <p>Poprawna Odpowiedź: {answer}</p>
+      {errors && <FormValidationMessage />}
     </label>
   );
 }

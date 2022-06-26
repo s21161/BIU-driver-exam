@@ -1,0 +1,4 @@
+.form-validation-message {
+  color: var(--red);
+  font-size: var(--s);
+}

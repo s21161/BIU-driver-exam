@@ -1,5 +1,7 @@
 export default function questionReducer(state, action) {
   switch (action.type) {
+    case "ADD_QUESTION":
+      return [...state, action.question];
     case "EDIT_QUESTION":
       const updatedArray = state.filter(({ id }) => id !== action.id);
 

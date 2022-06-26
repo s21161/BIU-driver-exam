@@ -1,6 +1,13 @@
 import "./FormTextarea.css";
 
-export default function FormTextarea({ label, register, defaultValue }) {
+import FormValidationMessage from "../FormValidationMessage/FormValidationMessage";
+
+export default function FormTextarea({
+  label,
+  register,
+  defaultValue,
+  errors,
+}) {
   return (
     <label className="form-textarea">
       <span>{label}</span>
@@ -8,8 +15,10 @@ export default function FormTextarea({ label, register, defaultValue }) {
         className="form-textarea__field"
         {...register}
         defaultValue={defaultValue}
-        rows="10" cols="60"
+        rows="10"
+        cols="60"
       />
+      {errors && <FormValidationMessage />}
     </label>
   );
 }

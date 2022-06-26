@@ -2,6 +2,8 @@ import React from "react";
 
 import { useForm } from "react-hook-form";
 
+import useHandleOptions from "../hooks/useHandleOptions";
+
 import { QuestionContext } from "../contexts/QuestionsContext/QuestionContext";
 
 import FormLayout from "../layouts/FormLayout/FormLayout";
@@ -19,22 +21,11 @@ export default function EditForm({ id }) {
 
   const { questionState, questionDispath } = React.useContext(QuestionContext);
 
+  const { handleOptions } = useHandleOptions();
+
   const findQuestionById = questionState.find(
     (question) => question.id === Number(id)
   );
-
-  const handleOptions = (data) => {
-    return data.A && data.B && data.C
-      ? [
-          { option: "A", value: data.A },
-          { option: "B", value: data.B },
-          { option: "C", value: data.C },
-        ]
-      : [
-          { option: "Tak", value: data.Tak },
-          { option: "Nie", value: data.Nie },
-        ];
-  };
 
   const onSubmit = (data) => {
     const updatedQuestion = {
@@ -61,15 +52,17 @@ export default function EditForm({ id }) {
         label="Treść Pytania"
         register={register("content", { required: true })}
         defaultValue={findQuestionById.content}
+        errors={errors.content}
       />
       {findQuestionById.options.map(({ option, value }) => (
         <FormTextfield
-          label={`${option}: `}
+          key={`${option}-${value}`}
+          label={`${option}`}
           register={register(`${option}`, { required: true })}
           defaultValue={value}
           errors={errors[option]}
           style={{
-            border: `1px solid ${
+            borderColor: `${
               option === findQuestionById.answer ? "var(--green)" : "var(--red)"
             }`,
           }}
@@ -80,8 +73,9 @@ export default function EditForm({ id }) {
         placeholder="Wybierz Poprawną Odpowiedź"
         register={register("answer", { required: true })}
         options={findQuestionById.options}
-        answer={findQuestionById.answer}
+        answer={findQuestionById.answer === "Yes" ? "Tak" : "Nie"}
         errors={errors.answer}
+        defaultValue={findQuestionById.answer}
       />
     </FormLayout>
   );

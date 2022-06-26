@@ -33,19 +33,19 @@
       "id": 3,
       "content": "Czy trzeba udzielić pierwszej pomocy podczas wypadku?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Tak"
+      "answer": "Yes"
     },
     {
       "id": 4,
       "content": "Czy trzeba udzielić pierwszej pomocy podczas kolizji?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Nie"
+      "answer": "No"
     },
     {
       "id": 5,
@@ -108,19 +108,19 @@
       "id": 8,
       "content": "Czy posiadając prawojazdy kat. B możemy jeździć motocyklem o pojemności 500?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Nie"
+      "answer": "No"
     },
     {
       "id": 9,
       "content": "Czy posiadając prawojazdy kat. B możemy jeździć motocyklem o pojemności 125?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Tak"
+      "answer": "Yes"
     },
     {
       "id": 10,
@@ -166,19 +166,19 @@
       "id": 14,
       "content": "Czy pod wpływem alkoholu można prowadzić pojazd?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Nie"
+      "answer": "No"
     },
     {
       "id": 15,
       "content": "Czy wjeżdżając na rondo trzeba włączyć kierunkowskaz?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Tak"
+      "answer": "Yes"
     },
     {
       "id": 16,
@@ -195,19 +195,19 @@
       "id": 17,
       "content": "Czy autostrada to droga szybkiego ruchu?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Nie"
+      "answer": "No"
     },
     {
       "id": 18,
       "content": "Czy rondo to skrzyżowanie?",
       "options": [
-        { "option": "Tak", "value": "Tak" },
-        { "option": "Nie", "value": "Nie" }
+        { "option": "Yes", "value": "Tak" },
+        { "option": "No", "value": "Nie" }
       ],
-      "answer": "Tak"
+      "answer": "Yes"
     },
     {
       "id": 19,

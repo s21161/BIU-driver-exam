@@ -11,7 +11,8 @@
 .form-textfield__input {
   padding: 2%;
   font-size: var(--m);
-  border-width: 5px !important;
+  border: none;
+  border: 5px solid var(--blue);
   border-radius: 5px;
   background: inherit;
 }
