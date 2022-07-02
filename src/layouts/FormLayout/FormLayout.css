@@ -30,4 +30,7 @@
   background: var(--blue);
   color: var(--white);
   font-size: var(--l);
+  cursor: pointer;
 }
+
+
